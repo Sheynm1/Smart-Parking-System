@@ -1,4 +1,5 @@
-🚗 Smart Parking System – Design and Implementation of an IoT-Based Smart Parking System Using Arduino and MQTT
+![Image](https://github.com/user-attachments/assets/eaef02ec-fffa-41df-8416-4c2927655ebc)
+
 Welcome to the Smart Parking System, a prototype IoT solution designed to tackle urban congestion and limited parking availability by providing real-time parking space monitoring. Built with scalability and cost-efficiency in mind, this system uses an Arduino R4 Wi-Fi, ultrasonic sensors, and the MQTT protocol to detect vehicles and communicate live parking status to users.
 
 📌 Project Overview
