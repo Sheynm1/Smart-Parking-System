@@ -18,6 +18,7 @@ Simulates large-scale car park scenarios using AI-generated datasets
 Tested on my personal driveway with my own vehicle: 2014 Hyundai i20, the system demonstrated accurate vehicle detection, robust real-time data transmission, and reliable MQTT connectivity — even under battery-powered conditions.
 
 ⚙️ Technology used
+
 Hardware:
 
 Arduino R4 Wi-Fi with integrated ESP32-S3
@@ -39,6 +40,7 @@ Generative AI for data simulation
 ![Image](https://github.com/user-attachments/assets/91d2adac-3546-4871-a6bd-0cba6b5689a9)
 
 📈 Key Features
+
 ✅ Real-time Detection – Detects and displays vehicle presence instantly
 
 ✅ Live MQTT Updates – Publishes parking status to an MQTT broker
@@ -52,18 +54,19 @@ Generative AI for data simulation
 ![Image](https://github.com/user-attachments/assets/44d11abb-913f-4800-b9bb-082f8b2b1a88)
 
 🧪 Testing Highlights
+
 ✔️ Sensor Accuracy – Consistent distance measurements across test scenarios
 
 ✔️ MQTT Reliability – Successful message publishing and system responsiveness
 
 ✔️ Scalability – Simulated multi-vehicle environments using AI-generated datasets
 
-![Image](https://github.com/user-attachments/assets/ba4581f7-0e4d-4d51-99b7-3ca4a7e12bb0)
+![Image](https://github.com/user-attachments/assets/df6f9967-4d4e-4c05-87eb-64850be7e381)
 
-![Image](https://github.com/user-attachments/assets/8c15f9ee-6cbc-4dbb-ba6b-e2427eb1b30b)
-
+![Image](https://github.com/user-attachments/assets/14b05e47-9b30-4af5-8397-0108c6a938a4)
 
 📸 System Demo
+
 ![Image](https://github.com/user-attachments/assets/fa1ac3c8-96f2-427d-b663-5e55288bb5f6)
 
 ![Image](https://github.com/user-attachments/assets/8f5469ff-df71-4b28-8de7-0cf8b6457e9d)
@@ -82,9 +85,9 @@ Generative AI for data simulation
 
 ☁️ The driveway parking data I collected with my vehicle indicates a clear transition between occupied and empty states. The vehicle was detected as occupying the parking space from approximately 23:38:06 to 23:39:01 on 24/04/2025, consistently returning “occupied” messages during this period. After 23:39:01(Highlighted in yellow), the system began returning “empty” ({}) messages, indicating the vehicle had left the sensor’s detection range and was no longer parked. The messages continued to show an empty status with consistent time intervals, confirming the reliability and responsiveness of the ultrasonic sensor and MQTT communication over Wi-Fi during the test. 
 
-![Image](https://github.com/user-attachments/assets/6a666d92-877a-4da7-954f-4db65279c7fc)
+![Image](https://github.com/user-attachments/assets/1412caac-a89c-421f-a0be-6a175994a63b)
 
-![Image](https://github.com/user-attachments/assets/8ad29e06-1d0e-4caa-8aa3-1fe393348ca3)
+![Image](https://github.com/user-attachments/assets/b319edcf-667e-4714-9d50-022f4d346c95)
 
 
 🔭 Larger scale car park (Generative AI)
@@ -93,11 +96,12 @@ To better visualize the potential impact of this system beyond a single use case
 
 This approach highlights a key advantage of the system which is scalability. By replicating the original device’s behaviour across multiple bays, it becomes clear how a network of smart parking sensors could function together to monitor multiple vehicles simultaneously in real-time. With HiveMQ Cloud providing a reliable and scalable MQTT infrastructure, this system can handle a larger volume of messages without a drop in performance, making it suitable for use in residential complexes, commercial car parks, or smart city environments. 
 
-![Image](https://github.com/user-attachments/assets/4d050183-8a64-4d95-9b47-900ff68add93)
+![Image](https://github.com/user-attachments/assets/1d559f2e-616e-408c-b3a0-bb1a8630ed0a)
 
 The AI-generated data simulates a larger, multi-bay car park consisting of 10 parking spaces monitored over a similar timeframe. This extended dataset reflected a more dynamic environment, with different bays being occupied and vacated. It illustrated the potential of the system to handle multiple devices publishing MQTT messages concurrently to the HiveMQ broker cluster which adopts multiple devices with ease with no delay or data loss. Compared to the single-bay driveway test conducted on my driveway, the simulated scenario demonstrated how the same architecture could scale effectively, providing real-time monitoring across a larger infrastructure. This comparison reinforces the versatility and scalability of the smart parking system when expanded to commercial or urban environments. 
 
 🛠️ Getting Started
+
 Clone the repository
 
 Install dependencies via the Arduino Library Manager
@@ -109,6 +113,7 @@ Upload the code to your Arduino R4 Wi-Fi board
 Open your MQTT client and Cloud Cluster to start monitoring!
 
 ⭐ Star this repo if you like the project!
+
 Let's make parking smarter and cities less congested 🚙💡
 
 
