@@ -96,7 +96,7 @@ To better visualize the potential impact of this system beyond a single use case
 
 This approach highlights a key advantage of the system which is scalability. By replicating the original device’s behaviour across multiple bays, it becomes clear how a network of smart parking sensors could function together to monitor multiple vehicles simultaneously in real-time. With HiveMQ Cloud providing a reliable and scalable MQTT infrastructure, this system can handle a larger volume of messages without a drop in performance, making it suitable for use in residential complexes, commercial car parks, or smart city environments. 
 
-![Image](https://github.com/user-attachments/assets/1d559f2e-616e-408c-b3a0-bb1a8630ed0a)
+![Image](https://github.com/user-attachments/assets/14e12c19-f301-421e-8e72-41a771f7857a)
 
 The AI-generated data simulates a larger, multi-bay car park consisting of 10 parking spaces monitored over a similar timeframe. This extended dataset reflected a more dynamic environment, with different bays being occupied and vacated. It illustrated the potential of the system to handle multiple devices publishing MQTT messages concurrently to the HiveMQ broker cluster which adopts multiple devices with ease with no delay or data loss. Compared to the single-bay driveway test conducted on my driveway, the simulated scenario demonstrated how the same architecture could scale effectively, providing real-time monitoring across a larger infrastructure. This comparison reinforces the versatility and scalability of the smart parking system when expanded to commercial or urban environments. 
 
