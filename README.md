@@ -2,6 +2,7 @@
 Welcome to the Smart Parking System, a prototype IoT solution designed to tackle urban congestion and limited parking availability by providing real-time parking space monitoring. Built with scalability and cost-efficiency in mind, this system uses an Arduino R4 Wi-Fi, ultrasonic sensors, and the MQTT protocol to detect vehicles and communicate live parking status to users.
 
 📌 Project Overview
+
 This project presents the design, development, and testing of a smart parking system that:
 
 Detects the presence of vehicles using ultrasonic sensors
