@@ -49,7 +49,7 @@ Generative AI for data simulation
 
 ✅ Portable Setup – Operates reliably on battery power
 
-![Image](https://github.com/user-attachments/assets/2109433a-8250-458d-a34d-e57e346eb927)
+![Image](https://github.com/user-attachments/assets/44d11abb-913f-4800-b9bb-082f8b2b1a88)
 
 🧪 Testing Highlights
 ✔️ Sensor Accuracy – Consistent distance measurements across test scenarios
