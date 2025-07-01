@@ -16,7 +16,7 @@ Leverages wireless communication via the ESP32-S3 chip onboard the Arduino R4 Wi
 
 Simulates large-scale car park scenarios using AI-generated datasets
 
-Tested on my personal driveway with my own vehicle: 2014 Hyundai i20, the system demonstrated accurate vehicle detection, robust real-time data transmission, and reliable MQTT connectivity — even under battery-powered conditions.
+Tested on my driveway with my vehicle: 2014 Hyundai i20, the system demonstrated accurate vehicle detection, robust real-time data transmission, and reliable MQTT connectivity — even under battery-powered conditions.
 
 ⚙️ Technology used
 
@@ -66,6 +66,10 @@ Generative AI for data simulation
 
 ![Image](https://github.com/user-attachments/assets/14b05e47-9b30-4af5-8397-0108c6a938a4)
 
+👨‍💻 Code 
+
+![Image](https://github.com/user-attachments/assets/333bd20b-a9fc-4b42-b906-e29255ad4c18)
+
 📸 System Demo
 
 ![Image](https://github.com/user-attachments/assets/fa1ac3c8-96f2-427d-b663-5e55288bb5f6)
@@ -95,11 +99,11 @@ Generative AI for data simulation
 
 To better visualize the potential impact of this system beyond a single use case, I expanded the original data using generative AI to simulate a larger-scale car park as seen in Figure 31. This simulation used the same MQTT message patterns observed in the driveway test, extrapolating them across multiple parking bays to mimic the functionality of a smart car park. Each bay in this generated model will be operated similarly to the tested device, continuously publishing occupancy updates to an MQTT broker hosted on HiveMQ Cloud. 
 
-This approach highlights a key advantage of the system which is scalability. By replicating the original device’s behaviour across multiple bays, it becomes clear how a network of smart parking sensors could function together to monitor multiple vehicles simultaneously in real-time. With HiveMQ Cloud providing a reliable and scalable MQTT infrastructure, this system can handle a larger volume of messages without a drop in performance, making it suitable for use in residential complexes, commercial car parks, or smart city environments. 
+This approach highlights a key advantage of the system, which is scalability. By replicating the original device’s behaviour across multiple bays, it becomes clear how a network of smart parking sensors could function together to monitor multiple vehicles simultaneously in real-time. With HiveMQ Cloud providing a reliable and scalable MQTT infrastructure, this system can handle a larger volume of messages without a drop in performance, making it suitable for use in residential complexes, commercial car parks, or smart city environments. 
 
 ![Image](https://github.com/user-attachments/assets/14e12c19-f301-421e-8e72-41a771f7857a)
 
-The AI-generated data simulates a larger, multi-bay car park consisting of 10 parking spaces monitored over a similar timeframe. This extended dataset reflected a more dynamic environment, with different bays being occupied and vacated. It illustrated the potential of the system to handle multiple devices publishing MQTT messages concurrently to the HiveMQ broker cluster which adopts multiple devices with ease with no delay or data loss. Compared to the single-bay driveway test conducted on my driveway, the simulated scenario demonstrated how the same architecture could scale effectively, providing real-time monitoring across a larger infrastructure. This comparison reinforces the versatility and scalability of the smart parking system when expanded to commercial or urban environments. 
+The AI-generated data simulates a larger, multi-bay car park consisting of 10 parking spaces monitored over a similar timeframe. This extended dataset reflected a more dynamic environment, with different bays being occupied and vacated. It illustrated the potential of the system to handle multiple devices publishing MQTT messages concurrently to the HiveMQ broker cluster, which adopts multiple devices with ease, with no delay or data loss. Compared to the single-bay driveway test conducted on my driveway, the simulated scenario demonstrated how the same architecture could scale effectively, providing real-time monitoring across a larger infrastructure. This comparison reinforces the versatility and scalability of the smart parking system when expanded to commercial or urban environments. 
 
 🛠️ Getting Started
 
