@@ -36,7 +36,7 @@ MQTT Client( via Hive MQ Cloud Cluster)
 
 Generative AI for data simulation
 
-![Image](https://github.com/user-attachments/assets/377e50bd-68f2-4ce3-9786-d97a1b23aa09)
+![Image](https://github.com/user-attachments/assets/91d2adac-3546-4871-a6bd-0cba6b5689a9)
 
 📈 Key Features
 ✅ Real-time Detection – Detects and displays vehicle presence instantly
